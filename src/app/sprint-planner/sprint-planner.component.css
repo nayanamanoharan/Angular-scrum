@@ -1,0 +1,42 @@
+/* sprint-planner.component.css */
+
+div {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  input, button {
+    width: 264px !important;
+    height: 34px !important;
+    border-radius: 10px !important;
+  }
+  

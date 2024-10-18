@@ -1,0 +1,24 @@
+<div>
+  <input type="number" placeholder="Sprint Capacity" [(ngModel)]="sprintCapacity" class="input-large" style="width:264px;height:34px;border-radius:10px;">
+  <button (click)="autoSelectStories()" class="btn-large">Auto Select Stories</button>
+  <button (click)="clearStories()" class="btn-clear">Clear All Stories</button>
+
+  <h3>Selected Stories:</h3>
+  <table *ngIf="selectedStories.length > 0" class="styled-table">
+    <thead>
+      <tr>
+        <th>Story Name</th>
+        <th>Story Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let story of selectedStories">
+        <td>{{ story.name }}</td>
+        <td>{{ story.points }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  
+  
